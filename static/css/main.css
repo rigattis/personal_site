@@ -15,7 +15,7 @@ body {
 nav {
     background: #535947;
     border-bottom: 1px solid #dfd8c9;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
 }
@@ -28,11 +28,11 @@ nav {
 }
 
 .nav-links a {
-    font-size: 1.15rem; 
+    font-size: 1.5rem; 
     text-decoration: none;
     color: #dfd8c9;
     font-weight: 500;
-    padding: 0 2rem;
+    padding: 0 5rem;
 }
 
 .nav-left {
@@ -68,17 +68,18 @@ main {
 }
 
 .logo img {
-    height: 100px;
+    height: 135px;
 }
 
 .button {
     background-color: #dfd8c9;
     color: #535947;
+    font-size: 1.15rem;
     padding: 0.5rem 1.5rem;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     transition: background-color 0.3s, transform 0.2s;
 }
 
