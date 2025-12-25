@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+    background-color: #535947;
+    color: #dfd8c9;
+}
+
+nav {
+    background: #535947;
+    border-bottom: 1px solid #dfd8c9;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #dfd8c9;
+    font-weight: 500;
+    padding: 0 1.25rem;
+}
+
+.nav-links a {
+    font-size: 1.15rem; 
+    text-decoration: none;
+    color: #dfd8c9;
+    font-weight: 500;
+    padding: 0 2rem;
+}
+
+.nav-left {
+    flex: 1;
+}
+
+.nav-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* push contents to the right */
+    align-items: center;
+    
+}
+
+.nav-links a:not(:first-child) {
+    border-left: 1px solid #dfd8c9;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dfd8c9;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #96795B;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.button {
+    background-color: #dfd8c9;
+    color: #535947;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #96795B;
+    color: #535947;
+    transform: translateY(-2px);
+}
